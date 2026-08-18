@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #52525b;
+  --color-ink-faint: #8b8b93;
+  --color-line: #ececec;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f6f6f5;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* Tighter tracking on display headings, echoing the app's UI */
+.tracking-display {
+  letter-spacing: -0.03em;
+}
+
+::selection {
+  background: #0a0a0a;
+  color: #ffffff;
+}
+
+@keyframes float-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float-in {
+  animation: float-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-float-in {
+    animation: none;
+  }
+}
