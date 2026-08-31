@@ -1,5 +1,4 @@
 // Central configuration for the SimpleLttr landing site.
-// Remplace les URLs "#" par les vrais liens quand ils sont prêts.
 
 export const site = {
   name: "SimpleLttr",
@@ -13,7 +12,7 @@ export const site = {
   links: {
     web: "https://web.simplelttr.app",
     ios: "https://apps.apple.com/us/app/simplelttr/id6791232107",
-    android: "#", // TODO: lien Google Play
+    android: "https://play.google.com/store/apps/details?id=app.simplelttr",
   },
   // Exemple d'adresse, purement décoratif.
   sampleAddress: "vous@me.simplelttr.app",

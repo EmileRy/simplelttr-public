@@ -17,7 +17,7 @@ SimpleLttr est fait pour les gens qui aiment lire — pas pour ceux qui aiment s
 
 ## Utiliser SimpleLttr
 
-SimpleLttr est disponible en version web sur [web.simplelttr.app](https://web.simplelttr.app) et dispose d'une application [iOS](https://apps.apple.com/us/app/simplelttr/id6791232107) et [Android](#).
+SimpleLttr est disponible en version web sur [web.simplelttr.app](https://web.simplelttr.app) et dispose d'une application [iOS](https://apps.apple.com/us/app/simplelttr/id6791232107) et [Android](https://play.google.com/store/apps/details?id=app.simplelttr).
 
 ## Stack technique
 
