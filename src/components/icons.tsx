@@ -70,41 +70,10 @@ export function IconOffline(props: IconProps) {
   );
 }
 
-export function IconArrowRight(props: IconProps) {
-  return (
-    <svg {...base} {...props}>
-      <path d="M5 12h14" />
-      <path d="m13 6 6 6-6 6" />
-    </svg>
-  );
-}
-
 export function IconCheck(props: IconProps) {
   return (
     <svg {...base} {...props}>
       <path d="m5 12.5 4.5 4.5L19 6.5" />
-    </svg>
-  );
-}
-
-export function IconKey(props: IconProps) {
-  return (
-    <svg {...base} {...props}>
-      <circle cx="8" cy="15" r="4" />
-      <path d="m10.8 12.2 8.2-8.2" />
-      <path d="m15.5 7.5 2.5 2.5" />
-      <path d="m18 5 2.5 2.5" />
-    </svg>
-  );
-}
-
-export function IconHourglass(props: IconProps) {
-  return (
-    <svg {...base} {...props}>
-      <path d="M7 3h10" />
-      <path d="M7 21h10" />
-      <path d="M7 3v3.5c0 1 .4 2 1.2 2.6L12 12l-3.8 2.9A3.3 3.3 0 0 0 7 17.5V21" />
-      <path d="M17 3v3.5c0 1-.4 2-1.2 2.6L12 12l3.8 2.9c.8.6 1.2 1.6 1.2 2.6V21" />
     </svg>
   );
 }

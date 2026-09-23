@@ -81,19 +81,6 @@ export function DownloadButtons({
           variant={variant}
         />
       </div>
-
-      {site.privateBeta && (
-        <a
-          href="/#beta"
-          className={`inline-flex items-center text-[0.85rem] font-medium underline decoration-dotted underline-offset-4 transition-colors ${
-            variant === "dark"
-              ? "text-white/70 hover:text-white"
-              : "text-ink-soft hover:text-ink"
-          }`}
-        >
-          Beta privée — accès sur invitation ou liste d'attente
-        </a>
-      )}
     </div>
   );
 }

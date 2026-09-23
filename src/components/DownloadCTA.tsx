@@ -1,6 +1,5 @@
 import { Container } from "./Container";
 import { DownloadButtons } from "./DownloadButtons";
-import { site } from "@/lib/site";
 
 export function DownloadCTA() {
   return (
@@ -16,9 +15,8 @@ export function DownloadCTA() {
               Reprenez le contrôle de vos newsletters
             </h2>
             <p className="mx-auto mt-5 max-w-lg text-pretty text-[1.05rem] text-white/70">
-              {site.privateBeta
-                ? "Sur le web, iOS et Android. L'accès se fait par code d'invitation ou liste d'attente, le temps de la beta privée."
-                : "Disponible sur le web, iOS et Android. Créez votre adresse unique et commencez à lire au calme."}
+              Disponible sur le web, iOS et Android. Créez votre adresse unique
+              et commencez à lire au calme.
             </p>
 
             <div className="mt-9 flex justify-center">
